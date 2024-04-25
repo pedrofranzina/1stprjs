@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+  }
+  
+  thead,
+  tfoot {
+    background-color: lightcoral;
+  }
+  
+  th,
+  td {
+    padding: 8px 10px;
+  }
+  
+  td:nth-last-of-type {
+    text-align: right;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: lightsalmon;
+  }
+  tbody > tr:nth-of-type(odd) {
+    background-color: darksalmon;
+  }
+  
+  tfoot td {
+    text-align: center;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
