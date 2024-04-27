@@ -72,3 +72,10 @@ ul {
 ul a {
     font-size: 12px;
 }
+button:hover{
+    background-color: orange;
+    color: red;
+}
+button:active{
+    background-color: rgb(179, 114, 30);
+}
