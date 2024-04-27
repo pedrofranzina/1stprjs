@@ -23,6 +23,9 @@ h1{
 h1, h2, h3{
     color: rgb(58, 33, 15);
 }
+.under {
+    text-decoration: underline;
+}
 
 p {
     text-align: left;
@@ -31,6 +34,10 @@ p {
     margin: 0;
     margin-block-end: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p sup{
+    text-decoration: underline;
+    font-size: 10px;
 }
 
 table {
@@ -61,4 +68,7 @@ h3 {
 
 ul {
     margin: 2px;
+}
+ul a {
+    font-size: 12px;
 }

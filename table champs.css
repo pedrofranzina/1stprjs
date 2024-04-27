@@ -39,3 +39,6 @@ table {
   tfoot td {
     font-weight: bold;
   }
+ul a {
+  font-size: 45px;
+}
