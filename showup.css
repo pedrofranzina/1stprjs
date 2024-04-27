@@ -7,17 +7,21 @@ a {
     text-decoration: none;
 }
 
-hr.firsthr {
+#firsthr {
+    margin: auto;
     max-width: 600px;
 }
 
-hr.culturehr {
+hr {
     max-width: 150px;
     margin: 0;
 }
 
-h1 {
+h1{
     text-align: center;
+}
+h1, h2, h3{
+    color: rgb(58, 33, 15);
 }
 
 p {
