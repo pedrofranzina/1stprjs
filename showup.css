@@ -35,6 +35,9 @@ p {
     margin-block-end: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.underl{
+    max-width: none;
+}
 p sup{
     text-decoration: underline;
     font-size: 10px;
@@ -77,5 +80,13 @@ button:hover{
     color: red;
 }
 button:active{
-    background-color: rgb(179, 114, 30);
+    background-color: red;
+    color: orange;
+}
+
+.underl:nth-of-type(1n){
+    background-color: rgb(160, 159, 159);
+}
+.underl:nth-of-type(2n){
+    background-color: rgb(109, 109, 109);
 }
