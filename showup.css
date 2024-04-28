@@ -24,6 +24,13 @@ h1::selection{
     background-color: green;
     color: red;
 }
+h1:hover{
+    font-size: 50px;
+    border: black solid;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: white;
+}
 h1, h2, h3{
     color: rgb(58, 33, 15);
 }
@@ -51,6 +58,7 @@ p sup{
 }
 
 table {
+    font-size: 18px;
     background-color: antiquewhite;
     border-collapse: separate;
     border-radius: 10px;
