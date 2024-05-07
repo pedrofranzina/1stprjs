@@ -39,3 +39,13 @@ table {
   tfoot td {
     font-weight: bold;
   }
+#champs{
+  font-size: 12px;
+  width: 340px;
+  height: 100px;
+  border: 2px solid rgb(114, 114, 235);
+  text-align: center;  
+  border-left-width: 4px;
+  box-sizing: border-box;  
+  border-radius: 6% 0% 6% 0%;
+}
